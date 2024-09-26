@@ -1,0 +1,12 @@
+[package]
+name = "image_processing"
+version = "0.1.0"
+authors = ["marcin42"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#image = "0.23.14"
+image = { path = "/home/marcin42/Documents/Rust/image" }
+num-complex = "0.3.1"
